@@ -1,0 +1,6 @@
+// android/settings.gradle
+
+include ':app'
+
+def flutterProjectRoot = rootProject.projectDir.parentFile.toPath()
+apply from: "$flutterProjectRoot/.flutter-plugins-dependencies.gradle"
